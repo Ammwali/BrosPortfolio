@@ -10,7 +10,7 @@ const useAddUser = () => {
         setError(null);
         setLoading(true);
   
-        const res = await fetch("http://localhost:5000/api/user/add", {
+        const res = await fetch("https://brosportfolio.onrender.com/api/user/add", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
